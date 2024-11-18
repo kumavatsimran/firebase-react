@@ -8,4 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # firebase-react
 
+<<<<<<< HEAD
 
+=======
+https://my-post-b9963.web.app/
+>>>>>>> d03a6bce6b7b4214817c48f12d70e6c0806c4d79
