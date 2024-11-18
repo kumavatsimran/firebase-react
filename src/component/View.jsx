@@ -8,7 +8,9 @@ function View({handleEdit}) {
     useEffect(() => {
      disptch(fetchPost());
     }, [disptch]);
-    
+    // useEffect(() => {
+    //   disptch(fetchPost());
+    // }, [disptch]);
     if(loading){
       return <div>...loading</div>
     }
@@ -17,12 +19,10 @@ function View({handleEdit}) {
     }
   return (
     <>
-
 <div className="row mt-3 justify-content-center">
         {posts.map((post) => (
           <div className="col-3 my-3">
             <div className="card" style={{ width: "18rem" }}>
-              {/* <img src="..." className="card-img-top" alt="..." /> */}
               <div className="card-body">
                 <h5 className="card-title">{post.title}</h5>
                 <p className="card-text">{post.discribtion}</p>
