@@ -29,7 +29,9 @@ function App() {
   return (
     <>
       <div className="container">
+      
         <form className='m-auto mt-5' onSubmit={handleSubmit}>
+        <h2>ADD POST</h2>
           <div className="mb-3">
             <label className="form-label">Title</label>
             <input type="text" className="form-control" name='title' onChange={handleinput} value={post.title||""}/>
